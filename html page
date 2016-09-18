@@ -1,24 +1,59 @@
+<!DOCTYPE html>
+
 <html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	<head>
+		<title>Личная страничка</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8">
+		<meta name="description" content="Личная страница и контакты">
+		<!-- Bootstrap Core CSS -->
+    	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" media="screen">
+	</head>
+	<body background="https://pp.vk.me/c836324/v836324275/c50/z4qoBw2M-1c.jpg"> 
+	<section id="portfolio">
+	<div class="container"> 
+		<div class="row">
+			<br/>
+			<div class="col-md-6">	
+        		<img src="https://pp.vk.me/c836324/v836324275/9c2/ohjTysLOysc.jpg" alt="Это я:)" align="center" style="height:600px; width:400px; margin:20px 20px 40px 20px; " >
+			</div>
+			<br/><br/>
+			<div class="col-md-6">
+        		<h1><p align="center">Маргарита Берсенева</p></h1><hr>
+				<h3><p align="center"><i>Что ни делается, все к лучшему.</i></h3></p><br/><br/>
+				<h2><p align="left">Место обучения</h2></p>
+				<a href="https://hse.ru"><font size=5 color="#FFFFFF">НИУ ВШЭ</font></a>
+				<a href="https://ling.hse.ru/"><font color="#FFFFFF"></font></a></br>
+				<a href="https://www.hse.ru/ba/ling/"><font size=5 color="#FFFFFF"> Фундаментальная и Компьютерная Лингвистика</font></a><br/><br/>
+			</div>
+			<div class="container">
+			<div class="col-md-3">
+			<h2>Увлечения</h2>
+				<ul>
+					<li><font size=4 color="#FFFFFF">Фотография, видеография</font></li>
+					<li><font size=4 color="#FFFFFF">Велосипед, Penny</font></li>
+					<li><font size=4 color="#FFFFFF">Фантастические книги</font></li>
+				</ul>
+			</div>
+				<div class="container">
+					<div class="col-md-3">
+					<h2>Контакты</h2>
+					<ul class="socialLinks">
+						<li><a href="https://vk.com/id38152275"><font size=4 color="#FFFFFF"><i> Vk</i></a></font></li>
+						<li><a href="https://twitter.com/Rita7798"><font size=4 color="#FFFFFF"><i> Twitter</i></a></font></li>
+						<li><a href="https://www.instagram.com/everthnmeans/"><font size=4 color="#FFFFFF"><i> Instagram</i></a></font></li>
+						<li><a href="https://www.facebook.com/profile.php?id=100002258228648"><font size=4 color="#FFFFFF"><i> Facebook</i></a></font></li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	<br/>
+	<br/>			
+	<footer class="bs-docs-footer"> 
+		<div class="container"> 
+			<p style="text-align:right"><font color="#FFFFFF"><b>&copy; Фото автора, М. Берсенева 2016</b></font></p> 
+		</div>
+	</footer>
+	</body>
 </html>

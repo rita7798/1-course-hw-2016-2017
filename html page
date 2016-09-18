@@ -2,11 +2,12 @@
 
 <html>
 	<head>
-		<title>Личная страничка</title>
+		<title>Личная страничка Маргариты Берсеневой</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta charset="utf-8">
 		<meta name="description" content="Личная страница и контакты">
 		<!-- Bootstrap Core CSS -->
+    	<link rel="shortcut icon" href="http://iconhub.ru/icons/animal/animal6/popugaj.png">
     	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" media="screen">
 	</head>
 	<body background="https://pp.vk.me/c836324/v836324275/c50/z4qoBw2M-1c.jpg"> 

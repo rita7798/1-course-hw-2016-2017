@@ -2,6 +2,6 @@
 n = input("Введите слово: ")
 s = ""
 for i in range(len(n)):
-    if n[-i] != "з" and n[-i] != "э" and n[-i] != "З" and n[-i] != "Э":
+    if n[i] != "з" and n[i] != "я" and n[i] != "З" and n[i] != "Я":
         s = s + n[i]
-print (s)
+print (s[::-1])

@@ -18,7 +18,7 @@ for line in lines:
   if "разум" in line[0]: 
       count += 1 
       authors.append(line[1]) 
-print("со словом 'разум' нашлось", count, "цитат ") 
+print("со словом 'разум' нашлось", count, "цитат") 
 for author in authors[:-1]: 
   print(author, end=", ") 
 print(authors[-1])

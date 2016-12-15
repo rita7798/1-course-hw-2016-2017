@@ -8,8 +8,8 @@
 <w>деле<ana lex="дело" gr="S,n,inan=loc,sg"/></w> 
 <w>многое<ana lex="многое" gr="SPRO,sg,n=acc"/></w> 
 <distinct form="че"> 
-<w>чего<ana lex="что" gr="SPRO,sg,n,inan=gen"/></w></distinct>,  
-<w>хотел<ana lex="хотеть" gr="V,ipf,tran=praet,sg,indic,m,act"/></w>
+<w>чего<ana lex="что" gr="SPRO,sg,n,inan=gen"/></w></distinct>, 
+<w>хотел<ana lex="хотеть" gr="V,ipf,tran=praet,sg,indic,m,act"/></w> 
 <w>сказать<ana lex="сказать" gr="V,pf,tran=inf,act"/></w> 
 <w>про<ana lex="про" gr="PR="/></w> 
 <w>орешки<ana lex="орешек" gr="S,m,inan=acc,pl"/></w> 
@@ -20,16 +20,16 @@
 <w>нашей<ana lex="наш" gr="APRO=loc,sg,f"/></w> 
 <w>жизни<ana lex="жизнь" gr="S,f,inan=loc,sg"/></w>. 
 <distinct form="Че">
-<w>что<ana lex="что" gr="SPRO,sg,n,inan=acc"/></w></distinct>
+<w>что<ana lex="что" gr="SPRO,sg,n,inan=acc"/></w></distinct> 
 <w>думаешь<ana lex="думать" gr="V,ipf,intr=indic,act,praes,2p,sg"/></w>, 
 <w>просто<ana lex="просто" gr="PART="/></w> 
 <w>так<ana lex="так" gr="ADVPRO="/></w> 
-<w>я<ana lex="я" gr="SPRO,sg,1p=nom"/></w>
+<w>я<ana lex="я" gr="SPRO,sg,1p=nom"/></w> 
 <w>орешки<ana lex="орешек" gr="S,m,inan=acc,pl"/></w> 
 <w>что<ana lex="что" gr="SPRO,sg,n=nom"/></w> 
 <w>ли<ana lex="ли" gr="PART="/></w> 
 <distinct form="щас">
-<w>сейчас<ana lex="сейчас" gr="ADV="/></w></distinct>
+<w>сейчас<ana lex="сейчас" gr="ADV="/></w></distinct> 
 <w>купил<ana lex="купить" gr="V,pf,tran=praet,sg,indic,m"/></w>? 
 </se>
 <se>
@@ -121,13 +121,13 @@
 <w>в<ana lex="в" gr="PR="/></w> 
 <w>голодные<ana lex="голодный" gr="A=acc,pl,plen,inan"/></w> 
 <w>студенческие<ana lex="студенческий" gr="A=acc,pl,plen,inan"/></w> 
-<w>годы<ana lex="год" gr="S,m,inan=acc,pl"/></w>.
+<w>годы<ana lex="год" gr="S,m,inan=acc,pl"/></w>. 
 </se>
 </speach>
 <speach role="Лиза" sex="жен">
 <se>
 <w>Привет<ana lex="привет" gr="S,m,inan=nom,sg"/></w>, 
-<w>ой<ana lex="ой" gr="INTJ="/></w>!
+<w>ой<ana lex="ой" gr="INTJ="/></w>! 
 </se>
 </speach>
 <speach role="Михаил" sex="муж">
@@ -157,7 +157,7 @@
 <w>вот<ana lex="вот" gr="PART="/></w> 
 <w>кстати<ana lex="кстати" gr="ADV,parenth="/></w>, 
 <w>хорошо<ana lex="хорошо" gr="PRAEDIC="/></w> 
-<w>вспомнил<ana lex="вспомнить" gr="V,pf,tran=praet,sg,indic,m,act"/></w> 
+<w>вспомнил<ana lex="вспомнить" gr="V,pf,tran=praet,sg,indic,m,act"/></w>,  
 <w>когда<ana lex="когда" gr="CONJ="/></w> 
 <w>я<ana lex="я" gr="SPRO,sg,1p=nom"/></w> 
 <w>вырос<ana lex="вырасти" gr="V,pf,intr=praet,sg,indic,m,act"/></w>, 
@@ -200,7 +200,7 @@
 <w>водку<ana lex="водка" gr="S,f,inan=acc,sg"/></w>, 
 <w>девочкам<ana lex="девочка" gr="S,f,anim=dat,pl"/></w> - 
 <w>Амаретто<ana lex="Амаретто!" qual="bastard" gr="S,n,inan,sg=acc"/></w>, 
-<w>тем<ana lex="тот" gr="APRO=dat,pl"/></w> 
+<w>тем<ana lex="тот" gr="APRO=dat,pl"/></w>, 
 <w>кто<ana lex="кто" gr="SPRO,sg,m,anim=nom"/></w> 
 <w>не<ana lex="не" gr="PART="/></w> 
 <w>может<ana lex="мочь" gr="V,ipf,intr=praes,sg,indic,3p,act"/></w> 
@@ -226,7 +226,7 @@
 <w>это<ana lex="это" gr="SPRO,sg,n,inan=nom"/></w> 
 <w>вот<ana lex="вот" gr="PART="/></w> 
 <w>про<ana lex="про" gr="PR="/></w> 
-<w>миндаль<ana lex="миндаль" gr="S,m,inan=acc,sg"/></w>.
+<w>миндаль<ana lex="миндаль" gr="S,m,inan=acc,sg"/></w>. 
 </se>
 </speach>
 <speach role="Михаил" sex="муж">
@@ -259,8 +259,7 @@
 <w>в<ana lex="в" gr="PR="/></w> 
 <w>Южной<ana lex="южный" gr="A=loc,sg,plen,f"/></w> 
 <w>Африке<ana lex="Африка" gr="S,geo,f,inan=loc,sg"/></w>. 
-<noindex>[
-<w>нрзб</w>]</noindex> 
+<noindex>[<w>нрзб</w>]</noindex> 
 <w>не<ana lex="не" gr="PART="/></w> 
 <w>употреблял<ana lex="употреблять" gr="V,ipf,tran=praet,sg,indic,m,act"/></w>, 
 <w>вот<ana lex="вот" gr="PART="/></w>, 
@@ -274,7 +273,7 @@
 <w>Умпум<ana lex="Умпум" qual="bastard" gr="S,persn,m,inan=nom,sg"/></w> 
 <w>Палеле<ana lex="Палеле" qual="bastard" gr="S,famn,m,anim=nom,sg"/></w>. 
 <distinct form="уот">
-<w>вот<ana lex="вот" gr="PART="/></w></distinct>.
+<w>вот<ana lex="вот" gr="PART="/></w></distinct>. 
 </se>
 <se>
 <w>Он<ana lex="он" gr="SPRO,sg,3p,m=nom"/></w> 
@@ -333,23 +332,23 @@
 <w>не<ana lex="не" gr="PART="/></w> 
 <w>любишь<ana lex="любить" gr="V,ipf,tran=praes,sg,indic,2p"/></w> 
 <distinct form="миксд пипл">
-<w lex="mixed" gr="">mixed</w> 
-<w lex="people" gr="">people</w></distinct>, 
+<w>mixed<ana lex="mixed" gr=""/></w>
+<w>people<ana lex="people" gr=""/></w></distinct>, 
 <w>значит<ana lex="значит" gr="ADV,parenth="/></w>, 
 <w>если<ana lex="если" gr="CONJ="/></w> 
 <w>ты<ana lex="ты" gr="SPRO,sg,2p=nom"/></w> 
 <w>не<ana lex="не" gr="PART="/></w> 
 <w>любишь<ana lex="любить" gr="V,ipf,tran=praes,sg,indic,2p"/></w> 
 <distinct form="миксд пипл"> 
-<w lex="mixed" gr="">mixed</w> 
-<w lex="nuts" gr="">nuts</w></distinct>, 
+<w>mixed<ana lex="mixed" gr=""/></w>
+<w>nuts<ana lex="nuts" gr=""/></w></distinct>, 
 <w>значит<ana lex="значит" gr="ADV,parenth="/></w> 
 <w>ты<ana lex="ты" gr="SPRO,sg,2p=nom"/></w> 
 <w>не<ana lex="не" gr="PART="/></w> 
 <w>любишь<ana lex="любить" gr="V,ipf,tran=praes,sg,indic,2p"/></w> 
 <distinct form="миксд пипл">
-<w lex="mixed" gr="">mixed</w> 
-<w lex="people" gr="">people</w></distinct>, 
+<w>mixed<ana lex="mixed" gr=""/></w>
+<w>people<ana lex="people" gr=""/></w></distinct>,  
 <w>значит<ana lex="значит" gr="ADV,parenth="/></w> 
 <w>ты<ana lex="ты" gr="SPRO,sg,2p=nom"/></w> — 
 <w>расист<ana lex="расист" gr="S,m,anim=nom,sg"/></w>.» 
@@ -421,8 +420,8 @@
 <w>наше<ana lex="наш" gr="APRO=acc,sg,n"/><ana lex="наш" gr="APRO=nom,sg,n"/></w> 
 <w>все<ana lex="весь" gr="APRO=nom,pl"/><ana lex="весь" gr="APRO=acc,sg,n"/><ana lex="весь" gr="APRO=nom,sg,n"/><ana lex="весь" gr="APRO=acc,pl,inan"/></w>, 
 <w>это<ana lex="это" gr="PART="/></w> 
-<w>вот<ana lex="вот" gr="PART="/></w> 
-<w>пожалуйста<ana lex="пожалуйста" gr="PART="/></w> 
+<w>вот<ana lex="вот" gr="PART="/></w>, 
+<w>пожалуйста<ana lex="пожалуйста" gr="PART="/></w>, 
 <w>в<ana lex="в" gr="PR="/></w> 
 <w>лесу<ana lex="лес" gr="S,m,inan=dat,sg"/><ana lex="лес" gr="S,m,inan=part,sg"/><ana lex="лес" gr="S,m,inan=loc,sg"/></w>, 
 <w>это<ana lex="это" gr="SPRO,sg,n,inan=acc"/><ana lex="это" gr="SPRO,sg,n,inan=nom"/></w> 
@@ -562,8 +561,9 @@
 <w>Вот<ana lex="вот" gr="PART="/></w> 
 <w>такие<ana lex="такой" gr="APRO=nom,pl"/><ana lex="такой" gr="APRO=acc,pl,inan"/></w> 
 <w>вот<ana lex="вот" gr="PART="/></w> 
-<w>орешки<ana lex="орешек" gr="S,m,inan=acc,pl"/><ana lex="орешек" gr="S,m,inan=nom,pl"/></w>.
+<w>орешки<ana lex="орешек" gr="S,m,inan=acc,pl"/><ana lex="орешек" gr="S,m,inan=nom,pl"/></w>. 
 <speach role="Михаил" sex="муж"></speach>
+<se>
 <w>Ну<ana lex="ну" gr="PART="/></w> 
 <w>вот<ana lex="вот" gr="PART="/></w>, 
 <w>на<ana lex="на" gr="PR="/></w> 
@@ -710,7 +710,7 @@
 <se>
 <w>Сколько<ana lex="сколько" gr="ADV="/></w> 
 <w>минут<ana lex="минута" gr="S,f,inan=gen,pl"/></w> 
-<w>осталось<ana lex="остаться" gr="V,pf,intr=praet,sg,indic,n"/></w>?
+<w>осталось<ana lex="остаться" gr="V,pf,intr=praet,sg,indic,n"/></w>? 
 </se>
 </speach> 
 <speach role="Маргарита" sex="жен"> 
@@ -727,13 +727,13 @@
 <w>а<ana lex="а" gr="CONJ="/></w> 
 <w>сколько<ana lex="сколько" gr="ADV="/></w> 
 <distinct form="щас"> 
-<w>сейчас<ana lex="сейчас" gr="ADV="/></w></distinct>
-<w>записалось<ana lex="записаться" gr="V,pf,intr=praet,sg,indic,n"/></w>?
+<w>сейчас<ana lex="сейчас" gr="ADV="/></w></distinct> 
+<w>записалось<ana lex="записаться" gr="V,pf,intr=praet,sg,indic,n"/></w>? 
 </se>
 </speach> 
-<speach role="Маргарита" sex="жен">
+<speach role="Маргарита" sex="жен"> 
 <se>
-<w>Четыре<ana lex="четыре" gr="NUM=nom"/><ana lex="четыре" gr="NUM=acc,inan"/></w>.
+<w>Четыре<ana lex="четыре" gr="NUM=nom"/><ana lex="четыре" gr="NUM=acc,inan"/></w>. 
 </se>
 </speach> 
 <speach role="Михаил" sex="муж">
@@ -750,10 +750,10 @@
 <w>минуту<ana lex="минута" gr="S,f,inan=acc,sg"/></w>.
 </se>
 </speach> 
-<speach role="Маргарита" sex="жен">
-<se>  
+<speach role="Маргарита" sex="жен"> 
+<se> 
 <distinct form="Какой-нить">
-<w>Какой-нибудь<ana lex="какой-нибудь" gr="APRO=loc,sg,f"/><ana lex="какой-нибудь" gr="APRO=dat,sg,f"/><ana lex="какой-нибудь" gr="APRO=gen,sg,f"/><ana lex="какой-нибудь" gr="APRO=ins,sg,f"/><ana lex="какой-нибудь" gr="APRO=acc,sg,m,inan"/><ana lex="какой-нибудь" gr="APRO=nom,sg,m"/></w></distinct>
+<w>Какой-нибудь<ana lex="какой-нибудь" gr="APRO=loc,sg,f"/><ana lex="какой-нибудь" gr="APRO=dat,sg,f"/><ana lex="какой-нибудь" gr="APRO=gen,sg,f"/><ana lex="какой-нибудь" gr="APRO=ins,sg,f"/><ana lex="какой-нибудь" gr="APRO=acc,sg,m,inan"/><ana lex="какой-нибудь" gr="APRO=nom,sg,m"/></w></distinct> 
 <w>итог<ana lex="итог" gr="S,m,inan=acc,sg"/><ana lex="итог" gr="S,m,inan=nom,sg"/></w>. 
 </se>
 <se>
@@ -761,7 +761,7 @@
 <w>все-таки<ana lex="все-таки" gr="PART="/></w> 
 <w>твой<ana lex="твой" gr="APRO=acc,sg,m,inan"/><ana lex="твой" gr="APRO=nom,sg,m"/></w> 
 <w>любимый<ana lex="любимый" gr="A=acc,sg,plen,m,inan"/><ana lex="любимый" gr="A=nom,sg,plen,m"/></w> 
-<w>орех<ana lex="орех" gr="S,m,inan=acc,sg"/><ana lex="орех" gr="S,m,inan=nom,sg"/></w>?
+<w>орех<ana lex="орех" gr="S,m,inan=acc,sg"/><ana lex="орех" gr="S,m,inan=nom,sg"/></w>? 
 </se>
 </speach> 
 <speach role="Михаил" sex="муж">
@@ -862,7 +862,7 @@
 <w>есть<ana lex="быть" gr="V,intr=inpraes,sg,indic,3p,ipf"/><ana lex="быть" gr="V,intr=inpraes,pl,indic,3p,ipf"/><ana lex="быть" gr="V,intr=praes,pl,indic,1p,ipf"/><ana lex="быть" gr="V,intr=praes,sg,indic,1p,ipf"/><ana lex="быть" gr="V,intr=praes,pl,indic,2p,ipf"/><ana lex="быть" gr="V,intr=praes,sg,indic,2p,ipf"/><ana lex="быть" gr="V,intr=praes,pl,indic,3p,ipf"/><ana lex="быть" gr="V,intr=praes,sg,indic,3p,ipf"/></w> 
 <w>его<ana lex="его" gr="APRO=loc,pl"/><ana lex="его" gr="APRO=dat,pl"/><ana lex="его" gr="APRO=gen,pl"/><ana lex="его" gr="APRO=ins,pl"/><ana lex="его" gr="APRO=nom,pl"/><ana lex="его" gr="APRO=nom,sg,f"/><ana lex="его" gr="APRO=acc,sg,m,anim"/><ana lex="его" gr="APRO=gen,sg,m"/><ana lex="его" gr="APRO=gen,sg,n"/><ana lex="его" gr="APRO=acc,sg,n"/><ana lex="его" gr="APRO=nom,sg,n"/><ana lex="его" gr="APRO=loc,sg,f"/><ana lex="его" gr="APRO=dat,sg,f"/><ana lex="его" gr="APRO=gen,sg,f"/><ana lex="его" gr="APRO=ins,sg,f"/><ana lex="его" gr="APRO=loc,sg,m"/><ana lex="его" gr="APRO=loc,sg,n"/><ana lex="его" gr="APRO=dat,sg,m"/><ana lex="его" gr="APRO=dat,sg,n"/><ana lex="его" gr="APRO=acc,sg,f"/><ana lex="его" gr="APRO=acc,pl,inan"/><ana lex="его" gr="APRO=acc,sg,m,inan"/><ana lex="его" gr="APRO=nom,sg,m"/><ana lex="его" gr="APRO=ins,sg,m"/><ana lex="его" gr="APRO=ins,sg,n"/><ana lex="его" gr="APRO=acc,pl,anim"/><ana lex="его" gr="APRO=loc,pl,n"/><ana lex="его" gr="APRO=acc,pl,n"/><ana lex="его" gr="APRO=dat,pl,n"/><ana lex="его" gr="APRO=gen,pl,n"/><ana lex="его" gr="APRO=ins,pl,n"/><ana lex="его" gr="APRO=nom,pl,n"/><ana lex="его" gr="APRO=loc,pl,m"/><ana lex="его" gr="APRO=acc,pl,m"/><ana lex="его" gr="APRO=acc,sg,m"/><ana lex="его" gr="APRO=dat,pl,m"/></w> 
 <distinct form="ваще"> 
-<w>вообще<ana lex="вообще" gr="ADV,parenth="/></w></distinct>
+<w>вообще<ana lex="вообще" gr="ADV,parenth="/></w></distinct> 
 <w>невозможно<ana lex="невозможно" gr="ADV="/></w>, 
 <w>поэтому<ana lex="поэтому" gr="ADVPRO="/></w>, 
 <w>уважаемые<ana lex="уважаемый" gr="A=acc,pl,plen,inan"/><ana lex="уважаемый" gr="A=nom,pl,plen"/></w> 
@@ -899,7 +899,7 @@
 <w>анализа<ana lex="анализ" gr="S,m,inan=gen,sg"/></w>, 
 <w>Москва<ana lex="москва" gr="S,geo,f,inan=nom,sg"/></w>, 
 <distinct form="дветыща"> 
-<w>дветысяча<ana lex="дветысяча" qual="bastard" gr="S,f,inan=nom,sg"/></w></distinct>
+<w>дветысяча<ana lex="дветысяча" qual="bastard" gr="S,f,inan=nom,sg"/></w></distinct> 
 <w>шестнадцатый<ana lex="шестнадцатый" gr="ANUM=acc,sg,m,inan"/><ana lex="шестнадцатый" gr="ANUM=nom,sg,m"/></w> 
 <w>год<ana lex="год" gr="S,m,inan=acc,sg"/><ana lex="год" gr="S,m,inan=nom,sg"/></w>.
 </se>

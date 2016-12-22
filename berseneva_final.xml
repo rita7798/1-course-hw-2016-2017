@@ -562,7 +562,9 @@
 <w>такие<ana lex="такой" gr="APRO=nom,pl"/><ana lex="такой" gr="APRO=acc,pl,inan"/></w> 
 <w>вот<ana lex="вот" gr="PART="/></w> 
 <w>орешки<ana lex="орешек" gr="S,m,inan=acc,pl"/><ana lex="орешек" gr="S,m,inan=nom,pl"/></w>. 
-<speach role="Михаил" sex="муж"></speach>
+</se>
+</speach>
+<speach role="Михаил" sex="муж">
 <se>
 <w>Ну<ana lex="ну" gr="PART="/></w> 
 <w>вот<ana lex="вот" gr="PART="/></w>, 

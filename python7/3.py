@@ -18,17 +18,21 @@ def counting():
     for i in range(len(words)):
         if words[i].endswith("hood") or words[i].endswith("hoods"):
             count += 1
-            hoods.append(words[i])
-            hoods_samples.add(words[i])                
+            if words[i].endswith("s"):
+                woord = words[i][:-1]
+                hoods.append(woord)
+                hoods_samples.add(woord)               
+            else:
+                hoods.append(words[i])
+                hoods_samples.add(words[i])                
     hoods.sort()
     for word in hoods_samples:
         a = hoods.count(word)
-        if a < prev:
+        if a <= prev:
             prev = a
             min_word = word
-        else:
-            a = 0
-    print("В данном тексте", count, "прилагательных с суффиксом -hood.")
+        
+    print("В данном тексте", count, "существительных с суффиксом -hood.")
     print("Существительное", min_word, "имеет минимальную частотность - найдено всего", prev, "слов(а).")   
     return hoods_samples
 
@@ -38,7 +42,7 @@ def forming():
     for word in hoods_samples:
         word = word[:-4]
         forms.append(word)
-    print("Корни прилагательных с суффиксом -hood:")
+    print("Корни существительных с суффиксом -hood:")
     for i in range(len(forms)):
         print(forms[i], sep = "\n")
 

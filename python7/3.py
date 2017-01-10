@@ -38,7 +38,7 @@ def forming():
     for word in hoods_samples:
         word = word[:-4]
         forms.append(word)
-    print("Вот такие получились корни:")
+    print("Корни прилагательных с суффиксом -hood:")
     for i in range(len(forms)):
         print(forms[i], sep = "\n")
 

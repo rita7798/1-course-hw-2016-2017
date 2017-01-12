@@ -1,14 +1,15 @@
-def opening():
+#coding = utf-8
+
+def opening(name):
     words = []
-    with open (input('Введите имя файла: '), 'r', encoding='utf-8') as f:
-        for line in f.read().split():
+    with open (name, 'r', encoding='utf-8') as f:
+        for line in f.read().replace('\n', ' ').split():
             words.append(line.lower())
     for i in range(len(words)):
         words[i] = words[i].strip('.,!?*()«»\'";:-')
     return words
 
-def counting():
-    words = opening()
+def counting(words):
     count_with = 0
     count_without = 0
     omnis = []
@@ -29,13 +30,21 @@ def counting():
             if word_new == words[i]:
                 count_without += 1
                 non_omnis.append(words[i])
-    print("С приставкой -omni встретилось", count_with, "слов(а)")
+    print("С приставкой -omni встретилось", count_with, "слов(а).")
+    print("---------------------------------------------------------")
     for word in omnis_samples:
         a = omnis.count(word)
-        print("Для слова", word, "встретилось", a, "примера(ов)")
-    print("Тех же слов, но без приставки -omni встретилось", count_without)
-    for word in non_omnis_samples:
-        a = non_omnis.count(word)
-        print("Для слова", word, "встретилось", a, "примера(ов)")
+        print("Для слова", word, "встретилось", a, "примера(ов).")
+    print("----------------------------------------------------------")
+    print("Тех же слов, но без приставки -omni встретилось", count_without, "штук(и).")
+    if count_without != 0:
+        print("----------------------------------------------------------")
+        for word in non_omnis_samples:
+            a = non_omnis.count(word)
+            if a != 0:
+                print("Для слова", word, "встретилось", a, "примера(ов).")
 
-counting()
+def main():
+    counting(opening(input('Введите имя файла: ')))
+
+main()

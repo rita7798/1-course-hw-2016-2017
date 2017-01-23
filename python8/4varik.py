@@ -52,6 +52,9 @@ def playing(d):
                 if a == "нет" or a == "Нет":
                     print("Спасибо за игру!")
                     return a
+                elif a == "да" or a == "Да":
+                    q -= 1
+                    break
             if s != val:
                 print("Подсказка: ", key, dots)
                 print("У Вас осталось", l, "попыток(и)")

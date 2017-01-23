@@ -50,7 +50,6 @@ def playing(d):
         while s != val:
             print(lose())
             if  i == 0:
-                print(lose())
                 print("Загаданное слово:", val)
                 print("Словосочетание полностью:", key, val)
                 print("----------------------------")
@@ -60,6 +59,9 @@ def playing(d):
                 if a == "нет" or a == "Нет":
                     print("Спасибо за игру!")
                     return a
+                elif a == "да" or a == "Да":
+                    q -= 1
+                    break
             if s != val:
                 print("Подсказка: ", key, "...")
                 print("У Вас осталось", i, "попыток(и)")

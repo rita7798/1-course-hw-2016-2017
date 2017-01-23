@@ -5,7 +5,7 @@
 
 def easy():
     d = {}
-    with open ("words1.csv", 'r', encoding='utf-8') as f:
+    with open ("words1.csv", 'r', encoding = 'utf-8') as f:
         for word in f.readlines():
             word = word.replace('\n', '').split(",")
             d[word[0]] = word[1]
@@ -47,6 +47,9 @@ def playing(d):
                 if a == "нет" or a == "Нет":
                     print("Спасибо за игру!")
                     return a
+                elif a == "да" or a == "Да":
+                    q -= 1
+                    break
             if s != val:
                 print("Подсказка: ", key, "...")
                 print("У Вас осталось", l, "попыток(и)")

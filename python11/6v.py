@@ -10,7 +10,7 @@ def main():
     new_text2 = re.sub('ФИНЛЯНД([А-Я]{,3}([\s\&,.!\?:;<"\(\)\'» —-]))','МАЛАЙЗ\\1', new_text)
     with open('Малайзия.html', 'w', encoding = 'utf-8') as f:
         f.write(new_text2)   
-    print("Файл \"Малайзия\"был создан.")
+    print("Файл \"Малайзия\" был создан.")
 
 
 main()

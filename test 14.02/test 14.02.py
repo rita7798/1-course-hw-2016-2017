@@ -40,7 +40,7 @@ def counting_words(words):
 
 
 def making_list(forms):
-    with open('answwers.csv', 'a', encoding='utf-8') as f:
+    with open('forms.csv', 'a', encoding='utf-8') as f:
         output = csv.writer(f, delimiter=',')
         header = ['слово', 'частота']
         output.writerow(header)
@@ -51,7 +51,7 @@ def making_list(forms):
 
         
 def main():
-    with open("F1.xml", 'r', encoding='utf-8') as f:
+    with open("F.xml", 'r', encoding='utf-8') as f:
         text = f.read()
     words = opening_words(text)
     counting_headers(words)

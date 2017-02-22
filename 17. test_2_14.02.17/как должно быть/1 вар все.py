@@ -16,7 +16,7 @@ def counting_headers(words):
             headers.append(words[i])
         else:
             break
-    with open('counting.txt', 'w', encoding='utf-8') as f:
+    with open('counting1.txt', 'w', encoding='utf-8') as f:
         f.write(str(len(headers)))
 
         
@@ -24,9 +24,9 @@ def counting_headers(words):
 def counting_words(words):
     forms = {}
     for i in range (len(words)):
-        reg = "<w lemma=\"(.*)\" type=\"(.*)\""
+        reg = "<w lemma=\".*\" type=\"(.*)\""
         if re.search(reg, words[i]):
-            res = re.search(reg, words[i]).group(2)
+            res = re.search(reg, words[i]).group(1)
             if res not in forms:
                 forms[res] = 1
             else:
@@ -36,7 +36,7 @@ def counting_words(words):
     return forms
 
 def making_list(forms):
-    with open('forms.txt', 'a', encoding='utf-8') as f:
+    with open('forms1.txt', 'a', encoding='utf-8') as f:
         for key, freq in forms.items():
             word = str(key) + " : " + str(freq) + "\n"
             f.write(word)
@@ -46,14 +46,14 @@ def making_list(forms):
 def searching_forms(words):
     more_forms = []
     for i in range (len(words)):
-        reg = "<w lemma=\"(.*)\" type=\"(f.h.*?)\">(.*)<"
+        reg = "<w lemma=\".*\" type=\"(f.h.*?)\">(.*)<"
         if re.search(reg, words[i]):
-            res = re.search(reg, words[i]).group(3)
+            res = re.search(reg, words[i]).group(2)
             more_forms.append(res)
     return more_forms
 
 def printing_out_more_forms(more_forms):
-    with open('forms.txt', 'a', encoding='utf-8') as f:
+    with open('forms1.txt', 'a', encoding='utf-8') as f:
         for i in range (len(more_forms)):
             word = more_forms[i] + ", "
             f.write(word)
@@ -66,7 +66,7 @@ def making_corpus(words):
             res = re.search(regex, words[i]).group(2)
             result = re.sub("<w lemma=\"(.*)\" type=\"(.*)\">(.*)</w>", "\\1, \\2, \\3", res)
             results.append(result)
-            with open('corpus.csv', 'w', encoding='utf-8') as f:
+            with open('corpus1.csv', 'w', encoding='utf-8') as f:
                 for i in range (len(results)):
                     word = results[i] + "\n"
                     f.write(word)

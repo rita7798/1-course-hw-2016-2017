@@ -19,7 +19,7 @@ def opening_text(fname):
 
 def making_list(sentences):
     true_sentences = [[word, len(word)] for sentence in sentences for word in sentence.split(' ') if len(word) > 7]
-    template = "{}-----{}"
+    template = '{:-<17}{:->2}'
     for i in true_sentences:
         print(template.format(i[0], i[1]))
     

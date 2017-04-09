@@ -18,8 +18,8 @@ def opening_text(fname):
 
 
 def making_list(sentences):
-    true_sentences = [[sentence, round((len(sentence) - (len(sentence.split(' ')) - 1)) / (len(sentence.split(' '))), 1)] for sentence in sentences if len(sentence.split(' ')) > 10 ]
-    template = "Предложение \"{}\" со словами длинны {}"
+    true_sentences = [[sentence, (len(sentence) - (len(sentence.split(' ')) - 1)) / (len(sentence.split(' ')))] for sentence in sentences if len(sentence.split(' ')) > 10 ]
+    template = "Предложение \"{}\" со словами длинны {:.1f}"
     for i in true_sentences:
         print(template.format(i[0], i[1]))
     

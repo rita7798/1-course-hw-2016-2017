@@ -15,7 +15,7 @@ for file in fileslist:
     names.append(name)
 
 printing_names = []
-true_names = [name for name in names if re.search('[a-zA-Z]', name) != None]
+true_names = [name for name in names if re.search('[a-zA-Z]', name) != None and re.search('[\d]', name) == None and re.search('[А-ЯЁа-яё]', name) == None]
 for i in range(len(true_names)):
     files += 1
     if true_names[i] not in printing_names:

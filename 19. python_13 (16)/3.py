@@ -2,24 +2,20 @@
 
 
 import os
-import shutil
 import re
 
 folders = 0
 folders_names = []
 path = os.getcwd()
 folderslist = [folder for folder in os.listdir() if os.path.isdir(folder)]
-for i in range(len(folderslist)):
-    folder = "([А-ЯЁа-яё]*\s*[А-ЯЁа-яё]*\s*[А-ЯЁа-яё]*)" #длина названия папки от 1 до 3 слов.
-    name = re.findall(folder, folderslist[i])
-    for j in range(len(folderslist)):
-        for i in range(len(name)):
-            if name[i] != " " and name[i] == folderslist[j]:
-                folders += 1
-                if name[i] not in folders_names:
-                    folders_names.append(name[i])
 
-print("Найдено ", folders, " папок(ки) с названиями только из кириллических символов в директории", path)
-for i in range(len(folders_names)):
-    print(folders_names[i])
+printing_names = []
+true_names = [name for name in folderslist if re.search('[\d]', name) == None and re.search('[a-zA-Z]', name) == None and re.search('[а-яёА-ЯЁ]', name) != None]
+for i in range(len(true_names)):
+    folders += 1
+    if true_names[i] not in printing_names:
+        printing_names.append(true_names[i])
 
+print("Найдено ", folders, " папок(ки): ")
+for i in range(len(printing_names)):
+    print(printing_names[i])

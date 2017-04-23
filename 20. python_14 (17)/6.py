@@ -25,7 +25,7 @@ for i in range(len(files)):
                 else:
                     list_of_ext[ext] += 1
     for key in list_of_ext:
-        if list_of_ext[key] >= 1:
+        if list_of_ext[key] > 1:
             extension = key
             if extension not in list_of_folders:
                 list_of_folders[extension] = 1

@@ -29,7 +29,7 @@ def opening():
 #2
 def making_csv():
     with open('table.csv', 'w', encoding='utf-8') as f:
-        output = csv.writer(f, delimiter='|')
+        output = csv.writer(f, delimiter=',')
         header = ['Название файла', 'Автор', 'Дата создания текста' ]
         output.writerow(header)
     path = os.getcwd() + "/news"
@@ -50,7 +50,7 @@ def making_csv():
                            author = re.search(reg, text).group(1)
                            date = re.search(reg1, text).group(1)                          
                            with open('table.csv', 'a', encoding='utf-8') as o:
-                                output = csv.writer(o, delimiter='|')
+                                output = csv.writer(o, delimiter=',')
                                 output.writerow([f, author, date])
 
 
